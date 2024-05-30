@@ -77,6 +77,10 @@ export class NConsole {
     this.instance._sendRequest('info', args);
   }
 
+  public static debug(...args: any[]) {
+    this.instance._sendRequest('debug', args);
+  }
+
   public static trace(...args: any[]) {
     this.instance._sendRequest('trace', args);
   }

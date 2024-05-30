@@ -1,5 +1,5 @@
 import { NativeModules, Platform } from 'react-native';
-import type { ClientInfo } from './model';
+import { type ClientInfo } from './model';
 
 const LINKING_ERROR =
   `The package 'react-native-nconsole' doesn't seem to be linked. Make sure: \n\n` +
